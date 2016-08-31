@@ -10,12 +10,12 @@
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "../../dist/",
+    "outDir": "/Users/dan/Dev/ngc-repo/dist/",
     "sourceMap": true,
     "target": "es5",
     "inlineSources": true
   },
-  "include": ["../../src/**/ng-module.ts"],
+  "include": ["/Users/dan/Dev/ngc-repo/src/**/ng-module.ts"],
   "angularCompilerOptions": {
     "genDir": "/Users/dan/Dev/ngc-repo/dist/ngc"
   }
