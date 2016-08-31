@@ -1,19 +1,12 @@
-import { NgModule } from '@angular/core';
-import { MyApp } from './app.ngfactory.ts';
-import { SecondComponent } from './second-component';
+import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppComponent }  from './app';
+
+
 @NgModule({
-  declarations: [
-    MyApp,
-    SecondComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  bootstrap: [MyApp],
-  entryComponents: [
-    MyApp
-  ]
+  imports: [ BrowserModule ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
 })
-export class NgModule {}
+export class AppModule { }

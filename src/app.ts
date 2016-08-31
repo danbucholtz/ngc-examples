@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  template: `
-    <h1>My Header</h1>
-    <second-component></second-component>
-  `
+  selector: 'my-app',
+  template: '<h1>{{title}}</h1>',
 })
-export class MyApp {
+export class AppComponent {
+  title = 'Minimal NgModule';
 }

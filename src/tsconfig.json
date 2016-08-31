@@ -4,6 +4,7 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "lib": ["dom", "es2015"],
     "mapRoot": "/",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -15,9 +16,5 @@
     "target": "es5",
     "inlineSources": true
   },
-
-  "files": [
-    "main.ts",
-    "typings.d.ts"
-  ]
+  "include": ["./**/ng-module.ts"]
 }
