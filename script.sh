@@ -1,2 +1,1 @@
-PWD=`pwd`
-./node_modules/.bin/ngc -p $PWD/src/tsconfig.json
+./node_modules/.bin/ngc -p ./config/build/tsconfig.json

@@ -10,11 +10,10 @@
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "../dist/",
-    "rootDir": ".",
+    "outDir": "../../dist/",
     "sourceMap": true,
     "target": "es5",
     "inlineSources": true
   },
-  "include": ["./**/ng-module.ts"]
+  "include": ["../../src/**/ng-module.ts"]
 }
