@@ -17,6 +17,6 @@
   },
   "include": ["../../src/**/ng-module.ts"],
   "angularCompilerOptions": {
-    "genDir": "../../dist/ngc"
+    "genDir": "/Users/dan/Dev/ngc-repo/dist/ngc"
   }
 }
