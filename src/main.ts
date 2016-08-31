@@ -1,9 +1,6 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
+import { platformBrowser } from '@angular/platform-browser';
 import { enableProdMode } from '@angular/core';
-import { AppComponent, environment } from './app/';
+import { NgModuleNgFactory } from './ng-module.ngfactory';
 
-if (environment.production) {
-  enableProdMode();
-}
-
-bootstrap(AppComponent);
+enableProdMode();
+platformBrowser().bootstrapModuleFactory(NgModuleNgFactory);
