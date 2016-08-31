@@ -15,5 +15,8 @@
     "target": "es5",
     "inlineSources": true
   },
-  "include": ["../../src/**/ng-module.ts"]
+  "include": ["../../src/**/ng-module.ts"],
+  "angularCompilerOptions": {
+    "genDir": "../../dist/ngc"
+  }
 }
